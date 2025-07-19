@@ -28,5 +28,4 @@
 | Ctrl+Alt+v      | View in browser        |
 
 # TODO
-- Auto refresh stuff
-- Get rid of the gap beside tabs
+- Fix build/refresh stuff
