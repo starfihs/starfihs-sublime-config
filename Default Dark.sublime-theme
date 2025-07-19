@@ -8,6 +8,22 @@
         {
             "class": "tabset_control",
             "content_margin": [-10, 0],
-        }
+        },
+        {
+            "class": "scroll_area_control",
+            "content_margin": [0, 14, 0, -14],
+            "parents": [{"class":"grid_layout_control"}]
+        },
+        {
+            "class": "scroll_area_control",
+            "content_margin": [0, 0, 0, 0],
+            "parents": [{"class": "overlay_control"}]
+        },
+        {
+            "class": "title_bar",
+            "settings": ["themed_title_bar"],
+            "fg": "color(var(--foreground))",
+            "bg": "color(var(--background) blend(white 85%))",
+        },
     ]
 }

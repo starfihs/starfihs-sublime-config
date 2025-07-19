@@ -12,8 +12,7 @@
 # Key Bindings
 | Key             | Action                 |
 | --------------- | ---------------------- |
-| Ctrl+o          | Open file              |
-| Ctrl+(Shift)+d  | Open/refresh directory |
+| Ctrl+(Shift)+o  | Open file/directory    |
 | Ctrl+s          | Save                   |
 | Ctrl+r          | Run+save               |
 | Ctrl+xcv        | Copy/paste             |
@@ -28,4 +27,10 @@
 | Ctrl+Alt+v      | View in browser        |
 
 # TODO
-- Fix build/refresh stuff
+- Ctrl+r automatically selects user build
+- Run refreshes output
+- User builds for c++, java, etc
+- Open folders with layout #6 and in/out files
+- Change layout on window resize (all in a single column for splitscreen)
+- Keybind to paste cpp / python templates
+- Customize titlebar text (not currently possible)

@@ -1,5 +1,6 @@
 [
     { "keys": ["ctrl+r"], "command": "build", "args": {"select": true} },
+    { "keys": ["ctrl+shift+r"], "command": "browser_refresh", "args": {"auto_save": true, "delay": 0.0, "activate": true, "browsers": ["chrome"]} },
     { "keys": ["ctrl+h"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
     { "keys": ["ctrl+p"], "command": "show_panel", "args": { "panel": "console", "toggle": true } },
@@ -9,8 +10,6 @@
     { "keys": ["ctrl+alt+2"], "command": "toggle_setting", "args": { "setting": "gutter" } },
     { "keys": ["ctrl+alt+3"], "command": "toggle_status_bar"},
     { "keys": ["ctrl+alt+4"], "command": "toggle_side_bar"},
-    { "keys": ["ctrl+alt+5"], "command": "toggle_full_screen" },
-    { "keys": ["ctrl+o"], "command": "prompt_open_file", "args": {"dir": "$file_path"} },
-    { "keys": ["ctrl+d"], "command": "prompt_open_folder", "args": {"dir": "C:/Users/munir"} },
-    { "keys": ["ctrl+shift+d"], "command" : "refresh_folder_list" }
+    { "keys": ["ctrl+o"], "command": "prompt_open_file" },
+    { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" }
 ]
