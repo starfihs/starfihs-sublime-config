@@ -35,3 +35,4 @@
 - Change layout on window resize (all in a single column for splitscreen)
 - Keybind to paste cpp / python templates
 - Customize titlebar text (not currently possible)
+- Align tab text with other text
