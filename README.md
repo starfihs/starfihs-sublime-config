@@ -12,7 +12,7 @@
 # Key Bindings
 | Key             | Action                 |
 | --------------- | ---------------------- |
-| Alt             | Open Menu              |
+| Alt             | Open menu              |
 | Ctrl+(Shift)+o  | Open file/directory    |
 | Ctrl+s          | Save                   |
 | Ctrl+r          | Run+save               |
