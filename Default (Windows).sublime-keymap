@@ -1,0 +1,16 @@
+[
+    { "keys": ["ctrl+r"], "command": "build", "args": {"select": true} },
+    { "keys": ["ctrl+h"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+    { "keys": ["ctrl+p"], "command": "show_panel", "args": { "panel": "console", "toggle": true } },
+    { "keys": ["alt+shift+6"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 0.5, 1.0], "cells": [ [0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2] ]} },
+    { "keys": ["alt+shift+7"], "command": "set_layout", "args": {"cols": [0.0, 0.33, 0.66, 1.0], "rows": [0.0, 0.5, 1.0], "cells": [ [0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2], [2, 0, 3, 2] ]} },
+    { "keys": ["ctrl+alt+1"], "command": "toggle_tabs" },
+    { "keys": ["ctrl+alt+2"], "command": "toggle_setting", "args": { "setting": "gutter" } },
+    { "keys": ["ctrl+alt+3"], "command": "toggle_status_bar"},
+    { "keys": ["ctrl+alt+4"], "command": "toggle_side_bar"},
+    { "keys": ["ctrl+alt+5"], "command": "toggle_full_screen" },
+    { "keys": ["ctrl+o"], "command": "prompt_open_file", "args": {"dir": "$file_path"} },
+    { "keys": ["ctrl+d"], "command": "prompt_open_folder", "args": {"dir": "C:/Users/munir"} },
+    { "keys": ["ctrl+shift+d"], "command" : "refresh_folder_list" }
+]

@@ -1,0 +1,5 @@
+{
+   "cmd": "cmd /c python $file < $file_path/in > $file_path/out 2>&1 && touch $file_path/out",
+   "working_dir": "$file_path",
+   "shell": true
+}
