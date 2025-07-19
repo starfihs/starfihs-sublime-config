@@ -2,6 +2,8 @@
 
 ![image](sample.png)
 
+# Sublime Text 4.2
+
 # Plugins
 - Package Control
 - Remember Minimap Setting
