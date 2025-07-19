@@ -39,3 +39,4 @@
 - Customize titlebar text (not currently possible)
 - Align tab text with other text
 - Origami-style navigation instead of Ctrl+123 ?
+- Only specific files open with line numbers (.py, .cpp)
